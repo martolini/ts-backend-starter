@@ -1,0 +1,15 @@
+{
+  "include": ["src/**/*"],
+  "compilerOptions": {
+    "target": "es2017",
+    "importHelpers": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "strict": true,
+    "noImplicitAny": true,
+    "outDir": "./dist",
+    "sourceMap": true
+  }
+}
